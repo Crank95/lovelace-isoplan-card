@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Isoplan Demo</title>
+    <style>
+      :root { color-scheme: light dark; }
+      body { margin: 0; padding: 16px; background: #1b1d22; color: #eee; font: 14px system-ui, sans-serif; }
+      .tools { display: flex; gap: 14px; flex-wrap: wrap; align-items: center; margin-bottom: 12px; }
+      .tools button { min-height: 36px; padding: 0 12px; }
+      #card { max-width: 1280px; margin: auto; }
+    </style>
+  </head>
+  <body>
+    <div class="tools">
+      <label>Sonnenstand <input id="sun" type="range" min="-20" max="40" value="-55" /></label>
+      <span id="elevation"></span>
+      <button id="toggle-all">Wohnzimmer Decke umschalten</button>
+      <button id="edit">Editor anzeigen</button>
+    </div>
+    <div id="card"></div>
+    <script type="module" src="./main.ts"></script>
+  </body>
+</html>

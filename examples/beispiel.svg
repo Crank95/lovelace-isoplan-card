@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640">
+  <defs>
+    <pattern id="floor" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M26 0H0v26" fill="none" stroke="#716456" stroke-opacity=".13"/>
+    </pattern>
+  </defs>
+  <ellipse cx="480" cy="454" rx="330" ry="111" fill="#20242a" opacity=".08"/>
+  <path d="M130 313l340 192 360-203v26L470 533 130 340z" fill="#92939b"/>
+  <g stroke="#fbf9f6" stroke-width="6" stroke-linejoin="round">
+    <path d="m130 313 170-96 170 96-170 96z" fill="#d3c3af"/>
+    <path d="m300 217 180-101 170 96-180 101z" fill="#c9cbd0"/>
+    <path d="m300 409 170-96 170 96-170 96z" fill="#c8b7a4"/>
+    <path d="m470 313 180-101 180 90-190 107z" fill="#d9cbbb"/>
+    <path d="M130 313l350-197 350 186-360 203z" fill="url(#floor)" stroke="none"/>
+  </g>
+  <g fill="#a6a9b1">
+    <path d="m130 313 170-96v-44l-170 96z"/>
+    <path d="m300 217 180-101V72L300 173z"/>
+  </g>
+  <path d="m480 72 350 186v44L480 116z" fill="#b4b5bc"/>
+  <path d="m130 269 350-197 350 186v10L480 82 130 279z" fill="#fbf9f6"/>
+  <g transform="matrix(.91 .514 -1 .565 480 122)">
+    <g fill="#797f86">
+      <rect x="30" y="33" width="139" height="31" rx="5"/>
+      <rect x="30" y="32" width="30" height="75" rx="5"/>
+      <rect x="121" y="94" width="58" height="28" rx="5"/>
+    </g>
+    <rect x="220" y="65" width="114" height="62" rx="21" fill="#ab9379"/>
+    <g fill="#ede6db" stroke="#a49380" stroke-width="3">
+      <rect x="242" y="38" width="25" height="25" rx="5"/>
+      <rect x="290" y="38" width="25" height="25" rx="5"/>
+      <rect x="242" y="130" width="25" height="25" rx="5"/>
+      <rect x="290" y="130" width="25" height="25" rx="5"/>
+    </g>
+    <rect x="32" y="210" width="122" height="49" rx="12" fill="#858b80"/>
+    <rect x="32" y="210" width="26" height="91" rx="9" fill="#858b80"/>
+    <ellipse cx="105" cy="289" rx="29" ry="20" fill="#eee6d7"/>
+    <rect x="230" y="212" width="97" height="104" rx="8" fill="#e6ddd0" stroke="#a68f7b" stroke-width="5"/>
+    <rect x="237" y="218" width="38" height="25" rx="6" fill="#f7f4ee"/>
+    <rect x="282" y="218" width="38" height="25" rx="6" fill="#f7f4ee"/>
+  </g>
+</svg>

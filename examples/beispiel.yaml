@@ -1,0 +1,34 @@
+# Fiktiver Beispielgrundriss mit Demo-Entitäten.
+type: custom:isoplan-card
+image: /local/isoplan/beispiel.svg
+coordinates: [960, 640]
+rooms:
+  - id: wohnen
+    name: Wohnen
+    area: [[130, 313], [300, 217], [470, 313], [300, 409]]
+    label: [290, 325]
+    temperature: sensor.demo_wohnen
+    lights:
+      - { entity: light.demo_wohnen, name: Deckenlicht }
+    fixtures:
+      - { entity: light.demo_wohnen, type: spot, x: 245, y: 298 }
+    devices:
+      - { entity: switch.demo_leselampe, name: Leselampe, x: 340, y: 299 }
+  - id: kueche
+    name: Küche
+    area: [[300, 217], [480, 116], [650, 212], [470, 313]]
+    label: [465, 217]
+    fixtures:
+      - { entity: light.demo_kueche, type: strip, x: 432, y: 178, angle: -30 }
+  - id: schlafzimmer
+    name: Schlafzimmer
+    area: [[300, 409], [470, 313], [640, 409], [470, 505]]
+    label: [469, 415]
+    fixtures:
+      - { entity: light.demo_schlafzimmer, type: bulb, x: 425, y: 371 }
+  - id: buero
+    name: Büro
+    area: [[470, 313], [650, 212], [830, 302], [640, 409]]
+    label: [658, 313]
+    fixtures:
+      - { entity: light.demo_buero, type: play, x: 653, y: 267 }
